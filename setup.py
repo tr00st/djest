@@ -11,7 +11,7 @@ setup(name='Djest',
           'beautifulsoup4'
       ],
       dependency_links=REQUIREMENTS,
-      
+      use_2to3 = True,
       )# pragma: no cover 
  
  
